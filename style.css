@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+body {
+    font-family: 'Oswald', sans-serif;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media (min-width: 420px) {
+    h3 {
+        margin-top: 5px;
+        font-size: 50px;
+        text-align: center;
+    }
+    h4 {
+        font-size: 40px;
+        text-align: center;
+    }
+    .container {
+        display: flex;
+    }
+     .aside, .main {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .aa1{
+        display: flex;
+        flex-wrap: wrap;
+        width: 400px;
+    }
+    .box1 {
+        margin-left: auto;
+        margin-right: auto;
+        background-size: cover;
+        background-position: center;
+        margin-bottom: 5px;
+        width: 350px;
+        height: 350px;
+    }
+    h5 {
+        color: aliceblue;
+        font-size: 40px;
+        text-align: center;
+        vertical-align:middle;
+}
+}
+@media (min-width: 800px) {
+    h3 {
+        margin-top: 5px;
+        font-size: 50px;
+        text-align: center;
+    }
+    h4 {
+        font-size: 40px;
+        text-align: center;
+    }
+    .container {
+        display: flex;
+    }
+     .aside, .main {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .aa1{
+        display: flex;
+        flex-wrap: wrap;
+        width: 800px;
+    }
+    .box1 {
+        margin-left: auto;
+        margin-right: auto;
+        background-size: cover;
+        background-position: center;
+        margin-bottom: 5px;
+        width: 350px;
+        height: 350px;
+    }
+    h5 {
+        color: aliceblue;
+        font-size: 40px;
+        text-align: center;
+        vertical-align:middle;
+    }
+}
+@media (min-width: 1200px){
+h3 {
+    margin-top: 5px;
+    font-size: 50px;
+    text-align: center;
+}
+h4 {
+    font-size: 40px;
+    text-align: center;
+}
+.container {
+    display: flex;
+}
+ .aside, .main {
+    margin-left: auto;
+    margin-right: auto;
+}
+.aa1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1100px;
+}
+.box1 {
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 5px;
+    width: 500px;
+    height: 500px;
+}
+h5 {
+    color: aliceblue;
+    font-size: 40px;
+    text-align: center;
+    vertical-align:middle;
+}
+}
